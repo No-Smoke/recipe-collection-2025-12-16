@@ -1,0 +1,66 @@
+{
+  "project": {
+    "name": "recipe-collection-2025-12-16",
+    "description": "Recipe management system - GitHub/OpenProject integration test",
+    "created": "2025-12-16",
+    "status": "active"
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Set up project repository and initial structure",
+      "description": "Initialize GitHub repository, create directory structure, set up basic README and project documentation",
+      "status": "in_progress",
+      "priority": "high",
+      "tags": ["setup", "infrastructure"]
+    },
+    {
+      "id": 2,
+      "title": "Design database schema for recipes",
+      "description": "Create PostgreSQL schema including recipes table, categories, tags, ratings, and user notes",
+      "status": "todo",
+      "priority": "high",
+      "tags": ["database", "design"]
+    },
+    {
+      "id": 3,
+      "title": "Implement recipe CRUD API endpoints",
+      "description": "Build FastAPI endpoints for creating, reading, updating, and deleting recipes with proper validation",
+      "status": "todo",
+      "priority": "high",
+      "tags": ["backend", "api"]
+    },
+    {
+      "id": 4,
+      "title": "Create search functionality with filters",
+      "description": "Implement full-text search for recipes by name, ingredients, and category filters with performance optimization",
+      "status": "todo",
+      "priority": "medium",
+      "tags": ["backend", "search"]
+    },
+    {
+      "id": 5,
+      "title": "Build React frontend components",
+      "description": "Create recipe card, list view, detail view, and search interface components with responsive design",
+      "status": "todo",
+      "priority": "medium",
+      "tags": ["frontend", "ui"]
+    },
+    {
+      "id": 6,
+      "title": "Implement shopping list generation",
+      "description": "Add feature to combine ingredients from multiple recipes into a consolidated shopping list with quantity aggregation",
+      "status": "todo",
+      "priority": "low",
+      "tags": ["feature", "backend"]
+    },
+    {
+      "id": 7,
+      "title": "Deploy to VPS and configure CI/CD",
+      "description": "Set up deployment pipeline, configure nginx, SSL certificates, and automated testing on flow.ethospower.org",
+      "status": "todo",
+      "priority": "medium",
+      "tags": ["devops", "deployment"]
+    }
+  ]
+}
